@@ -51,3 +51,12 @@ nav li, footer li {
     display: inline;
     margin: 5%;
 }
+
+/* table element */
+
+table {
+    width: 100%;
+}
+th, td {
+    border: 1px solid black;
+}
