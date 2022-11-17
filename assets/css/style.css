@@ -25,6 +25,7 @@ h1 {
     font-family: 'Monoton', cursive;
     font-weight: 200;
     font-size: xx-large;
+    color: #a4a7ac;
 }
 
 /* removing marker from list items */
@@ -58,5 +59,27 @@ table {
     width: 100%;
 }
 th, td {
-    border: 1px solid black;
+    border: 1px solid #65657b;
+}
+
+/* span elements */
+
+span {
+    margin: 1%;
+}
+
+/* hr elements */
+
+hr {
+    color: #65657b;
+}
+
+/* hero-image */
+
+#hero-image {
+    height: 40vh;
+    width: 100%;
+    background: url('../images/hero-image.webp') no-repeat center center;
+    background-size: cover;
+    border-radius: 8px;
 }
