@@ -30,8 +30,44 @@
     <h2>Contact</h2>
     <p>Our Contact Details and Form</p>
     
-    <section>Contact Details</section>
-    <section>Form</section>
+    <section>
+        <h3>Contact Details</h3>
+        <span><i class="fa-solid fa-envelope"></i></span><span>uyangabatnasan63@gmail.com</span>
+        <br>
+        <span><i class="fa-solid fa-phone"></i></span><span>(353) 087 449 1925</span>
+        <br>
+        <span><i class="fa-solid fa-location-dot"></i></span><span>77, The O'Casey Gresham House<br>Sean McDermott Upper Street,<br>Dublin 1, D01NF76</span>
+    </section>
+
+    <section>
+        <h3>Contact Form</h3>
+        <details>
+          <summary>Feedback or Enquiry</summary>
+          <p>Feedback: Feel free to share your experiene with us</p>
+          <p>Enquiry: We are welcome for any enquiry</p>
+          </details>
+      
+        <form method="POST" action="dump.html">
+            <fieldset>
+                <legend><strong>Contact form</strong></legend>
+                <label for="firstname">First name:</label>
+                <input id="firstname" type="text" name="first_name" placeholder="First name" required>
+                <br>
+                <label for="lastname">Last name:</label>
+                <input id="lastname" type="text" name="last_name" placeholder="Last name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input id="email" type="email" name="email_address" placeholder="example@address.com" required>
+                <br>
+                <label for="message">Your message:</label>
+                <br>
+                <textarea id="message" name="feedback_or_enquiry" rows="10" cols="40" placeholder="Write here" required></textarea>
+                <br>
+                <input type="submit" value="Send"> 
+                <button type="reset">Cancel</button>
+            </fieldset>
+        </form>
+    </section>
     <footer>
         <ul>
             <li>
