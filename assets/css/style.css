@@ -27,3 +27,27 @@ h1 {
     font-size: xx-large;
 }
 
+/* removing marker from list items */
+
+li {
+    list-style-type: none;;
+}
+
+/* removing underline from links */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color:#a4a7ac;
+    font-style: italic;
+}
+
+/* nav list, footer list inline */
+
+nav li, footer li {
+    display: inline;
+    margin: 5%;
+}
