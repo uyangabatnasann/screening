@@ -83,3 +83,15 @@ hr {
     background-size: cover;
     border-radius: 8px;
 }
+
+/* image elements */
+.image-size {
+    height: 530px;
+    width: 400px;
+}
+
+/* aside element */
+
+aside, aside ~ footer {
+    color:#e5c76e;
+}
