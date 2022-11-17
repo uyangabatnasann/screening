@@ -1,12 +1,29 @@
+/* Google Fonts link */
+
 @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Noto+Sans:wght@300&family=Nunito&display=swap');
+
+/* body element */
+
 body {
     font-family: "Noto Sans", sans-serif;
     background-color: #f7f8f5;
     text-transform: uppercase;
     text-align: center;
 }
+
+/* headings */
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Nunito', sans-serif;
     color: #a55f5a;
     letter-spacing: 3px;
 }
+
+/* h1 */
+
+h1 {
+    font-family: 'Monoton', cursive;
+    font-weight: 200;
+    font-size: xx-large;
+}
+
