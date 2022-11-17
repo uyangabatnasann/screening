@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Noto+Sans:wght@300&family=Nunito&display=swap');
 body {
-    font-family: Arial;
+    font-family: "Noto Sans", sans-serif;
+    background-color: #f7f8f5;
+    text-transform: uppercase;
+    text-align: center;
 }
